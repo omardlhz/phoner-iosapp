@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82805A71C437F150003DD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82805A61C437F150003DD0F /* AppDelegate.swift */; };
+		A82805A91C437F150003DD0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82805A81C437F150003DD0F /* ViewController.swift */; };
+		A82805AC1C437F150003DD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82805AA1C437F150003DD0F /* Main.storyboard */; };
+		A82805AE1C437F150003DD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82805AD1C437F150003DD0F /* Assets.xcassets */; };
+		A82805B11C437F150003DD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82805AF1C437F150003DD0F /* LaunchScreen.storyboard */; };
+		A82805BC1C437F150003DD0F /* phonerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82805BB1C437F150003DD0F /* phonerIOSTests.swift */; };
+		A82805C71C437F150003DD0F /* phonerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82805C61C437F150003DD0F /* phonerIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A82805B81C437F150003DD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A828059B1C437F140003DD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82805A21C437F140003DD0F;
+			remoteInfo = phonerIOS;
+		};
+		A82805C31C437F150003DD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A828059B1C437F140003DD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82805A21C437F140003DD0F;
+			remoteInfo = phonerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A82805A31C437F140003DD0F /* phonerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82805A61C437F150003DD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A82805A81C437F150003DD0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A82805AB1C437F150003DD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82805AD1C437F150003DD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82805B01C437F150003DD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82805B21C437F150003DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82805B71C437F150003DD0F /* phonerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82805BB1C437F150003DD0F /* phonerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonerIOSTests.swift; sourceTree = "<group>"; };
+		A82805BD1C437F150003DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82805C21C437F150003DD0F /* phonerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82805C61C437F150003DD0F /* phonerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonerIOSUITests.swift; sourceTree = "<group>"; };
+		A82805C81C437F150003DD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82805A01C437F140003DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805B41C437F150003DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805BF1C437F150003DD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A828059A1C437F140003DD0F = {
+			isa = PBXGroup;
+			children = (
+				A82805A51C437F140003DD0F /* phonerIOS */,
+				A82805BA1C437F150003DD0F /* phonerIOSTests */,
+				A82805C51C437F150003DD0F /* phonerIOSUITests */,
+				A82805A41C437F140003DD0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82805A41C437F140003DD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82805A31C437F140003DD0F /* phonerIOS.app */,
+				A82805B71C437F150003DD0F /* phonerIOSTests.xctest */,
+				A82805C21C437F150003DD0F /* phonerIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82805A51C437F140003DD0F /* phonerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A82805A61C437F150003DD0F /* AppDelegate.swift */,
+				A82805A81C437F150003DD0F /* ViewController.swift */,
+				A82805AA1C437F150003DD0F /* Main.storyboard */,
+				A82805AD1C437F150003DD0F /* Assets.xcassets */,
+				A82805AF1C437F150003DD0F /* LaunchScreen.storyboard */,
+				A82805B21C437F150003DD0F /* Info.plist */,
+			);
+			path = phonerIOS;
+			sourceTree = "<group>";
+		};
+		A82805BA1C437F150003DD0F /* phonerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A82805BB1C437F150003DD0F /* phonerIOSTests.swift */,
+				A82805BD1C437F150003DD0F /* Info.plist */,
+			);
+			path = phonerIOSTests;
+			sourceTree = "<group>";
+		};
+		A82805C51C437F150003DD0F /* phonerIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A82805C61C437F150003DD0F /* phonerIOSUITests.swift */,
+				A82805C81C437F150003DD0F /* Info.plist */,
+			);
+			path = phonerIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82805A21C437F140003DD0F /* phonerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82805CB1C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOS" */;
+			buildPhases = (
+				A828059F1C437F140003DD0F /* Sources */,
+				A82805A01C437F140003DD0F /* Frameworks */,
+				A82805A11C437F140003DD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phonerIOS;
+			productName = phonerIOS;
+			productReference = A82805A31C437F140003DD0F /* phonerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A82805B61C437F150003DD0F /* phonerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82805CE1C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOSTests" */;
+			buildPhases = (
+				A82805B31C437F150003DD0F /* Sources */,
+				A82805B41C437F150003DD0F /* Frameworks */,
+				A82805B51C437F150003DD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82805B91C437F150003DD0F /* PBXTargetDependency */,
+			);
+			name = phonerIOSTests;
+			productName = phonerIOSTests;
+			productReference = A82805B71C437F150003DD0F /* phonerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A82805C11C437F150003DD0F /* phonerIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82805D11C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOSUITests" */;
+			buildPhases = (
+				A82805BE1C437F150003DD0F /* Sources */,
+				A82805BF1C437F150003DD0F /* Frameworks */,
+				A82805C01C437F150003DD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82805C41C437F150003DD0F /* PBXTargetDependency */,
+			);
+			name = phonerIOSUITests;
+			productName = phonerIOSUITests;
+			productReference = A82805C21C437F150003DD0F /* phonerIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A828059B1C437F140003DD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Omar De La Hoz";
+				TargetAttributes = {
+					A82805A21C437F140003DD0F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A82805B61C437F150003DD0F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A82805A21C437F140003DD0F;
+					};
+					A82805C11C437F150003DD0F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A82805A21C437F140003DD0F;
+					};
+				};
+			};
+			buildConfigurationList = A828059E1C437F140003DD0F /* Build configuration list for PBXProject "phonerIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A828059A1C437F140003DD0F;
+			productRefGroup = A82805A41C437F140003DD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82805A21C437F140003DD0F /* phonerIOS */,
+				A82805B61C437F150003DD0F /* phonerIOSTests */,
+				A82805C11C437F150003DD0F /* phonerIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82805A11C437F140003DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82805B11C437F150003DD0F /* LaunchScreen.storyboard in Resources */,
+				A82805AE1C437F150003DD0F /* Assets.xcassets in Resources */,
+				A82805AC1C437F150003DD0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805B51C437F150003DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805C01C437F150003DD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A828059F1C437F140003DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82805A91C437F150003DD0F /* ViewController.swift in Sources */,
+				A82805A71C437F150003DD0F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805B31C437F150003DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82805BC1C437F150003DD0F /* phonerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82805BE1C437F150003DD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82805C71C437F150003DD0F /* phonerIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A82805B91C437F150003DD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82805A21C437F140003DD0F /* phonerIOS */;
+			targetProxy = A82805B81C437F150003DD0F /* PBXContainerItemProxy */;
+		};
+		A82805C41C437F150003DD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82805A21C437F140003DD0F /* phonerIOS */;
+			targetProxy = A82805C31C437F150003DD0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A82805AA1C437F150003DD0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82805AB1C437F150003DD0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82805AF1C437F150003DD0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82805B01C437F150003DD0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82805C91C437F150003DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A82805CA1C437F150003DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82805CC1C437F150003DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phonerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A82805CD1C437F150003DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phonerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A82805CF1C437F150003DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phonerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phonerIOS.app/phonerIOS";
+			};
+			name = Debug;
+		};
+		A82805D01C437F150003DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phonerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phonerIOS.app/phonerIOS";
+			};
+			name = Release;
+		};
+		A82805D21C437F150003DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phonerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phonerIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A82805D31C437F150003DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phonerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dlhz.phonerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phonerIOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A828059E1C437F140003DD0F /* Build configuration list for PBXProject "phonerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82805C91C437F150003DD0F /* Debug */,
+				A82805CA1C437F150003DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82805CB1C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82805CC1C437F150003DD0F /* Debug */,
+				A82805CD1C437F150003DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A82805CE1C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82805CF1C437F150003DD0F /* Debug */,
+				A82805D01C437F150003DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A82805D11C437F150003DD0F /* Build configuration list for PBXNativeTarget "phonerIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82805D21C437F150003DD0F /* Debug */,
+				A82805D31C437F150003DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A828059B1C437F140003DD0F /* Project object */;
+}
